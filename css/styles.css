@@ -89,6 +89,11 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
 }
+
+.button-filter {
+  border: 0;
+  border-radius: 4px;
+}
 .items {
   list-style: none;
 }
@@ -110,7 +115,7 @@ body {
   color: var(--secondary-text-color);
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 .portfolio-link {
@@ -120,9 +125,14 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.63;
   background-color: #f5f4fa;
   color: var(--primary-text-color);
+}
+
+.hidden-title {
+  color: #fff;
+  background-color: #fff;
 }
 
 /*Футтер*/
@@ -158,6 +168,7 @@ body {
 }
 .banner {
   background: #2f303a;
+  text-align: center;
 }
 .features-subtitle {
   color: var(--primary-text-color);
@@ -178,21 +189,21 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.17;
   color: var(--primary-text-color);
 }
 
 .our-team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.19;
   color: var(--primary-text-color);
 }
 
 .our-team-text {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.19;
   color: var(--secondary-text-color);
 }
 
@@ -200,7 +211,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   color: #fff;
   background-color: #188ce8;
 }
