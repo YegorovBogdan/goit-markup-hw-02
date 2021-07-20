@@ -92,6 +92,8 @@ body {
 }
 
 .button-filter {
+  font-family: Roboto;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
@@ -129,7 +131,7 @@ body {
   text-decoration: none;
 }
 .button {
-  font-family: inherit;
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
