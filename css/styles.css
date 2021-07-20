@@ -53,6 +53,7 @@ body {
 }
 .aside-link {
   text-decoration: none;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -91,9 +92,14 @@ body {
 }
 
 .button-filter {
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
   border: 0;
   border-radius: 4px;
 }
+
 .items {
   list-style: none;
 }
